@@ -71,4 +71,5 @@ comics_entry = Entry(root, validate='key',
                      validatecommand=(validation, '%S'), width=5)
 comics_entry.grid(column=3, row=3, sticky=E)
 
+
 root.mainloop()
