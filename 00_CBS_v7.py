@@ -252,6 +252,6 @@ sell_comics.grid(column=2, row=5, sticky=E, padx=15, ipady=15)
 # Restock Comic Button - calls the change function with the action to restock
 restock_comics = Button(root, bg="gold", text="Restock comics: ",
                         font=("Arial", 16), command=lambda: change("Restock"))
-restock_comics.grid(column=3, row=5, sticky=W, ipadx=10, ipady=15,)
+restock_comics.grid(column=3, row=5, sticky=W, ipadx=10, ipady=15)
 
 root.mainloop()
